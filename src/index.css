@@ -29,10 +29,15 @@ body{
     flex-direction: column;
 }
 
+.result {
+    text-align: center;
+}
+
 .result .btn{
     background-color: steelblue;
     color: #fff;
-    width: 100%;
+    width: 75%;
+    padding: 5px 0;
     border: none;
     border-radius: 3px;
 }
@@ -41,10 +46,14 @@ body{
     transform: scale(.98);
 }
 
-.result{
-    text-align: center;
+.result div{
+    margin-top: 10px;
 }
 
-form{
+.createUser{
     margin: 10px 0;
+}
+
+.createUser button {
+    margin-left: 10px;
 }
