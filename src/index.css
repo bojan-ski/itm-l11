@@ -44,3 +44,7 @@ body{
 .result{
     text-align: center;
 }
+
+form{
+    margin: 10px 0;
+}
