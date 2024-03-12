@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #eee;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.payment{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.currencyType, .paypal{
+    display: flex;
+    flex-direction: column;
+}
+
+.result .btn{
+    background-color: steelblue;
+    color: #fff;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+}
+
+.result .btn:active{
+    transform: scale(.98);
+}
+
+.result{
+    text-align: center;
+}
